@@ -114,4 +114,4 @@ def api_filter():
         return {}
 
 
-app.run()
+app.run(host="0.0.0.0")
